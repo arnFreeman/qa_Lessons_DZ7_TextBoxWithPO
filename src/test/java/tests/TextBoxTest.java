@@ -6,8 +6,7 @@ public class TextBoxTest extends TestBase {
     TextBoxPages textBoxPages = new TextBoxPages();
     @Test
     void positiveTextBoxTest() {
-
-        textBoxPages.openPage()
+         textBoxPages.openPage()
                     .setUserName("Abdullin Renat")
                     .setUserEmail("AbdullinRenat@gmail.com")
                     .setUserCurrentAdress("Moscow, Petrovka Street, building 38")
